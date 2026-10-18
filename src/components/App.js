@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div id="main">
-      <button id="click" onClick={() => setShowParagraph()}>
+      <button id="click" onClick={() => setShowParagraph(true)}>
         Click Me
       </button>
       {showParagraph && (
